@@ -3492,7 +3492,7 @@ $('codebox').addEventListener('submit', e => {
 });
 
 /* "Game updating, please wait." — shows when this page has just switched to a newer published version */
-const BUILD_ID = '1794873428';
+const BUILD_ID = '1795041939';
 let justUpdated = false;
 /* update this line every publish: what changed in this version */
 const WHATS_NEW = ['❄️ Snow is resting until the Christmas Update (Dec. 1)'];
@@ -4330,6 +4330,9 @@ else {
 setInterval(saveGame, 1000);
 window.addEventListener('pagehide', saveGame);
 document.addEventListener('visibilitychange', saveGame);
+</script>
+<script>
+(function(){try{if(!/(^|\.)illegalchess\.com$/.test(location.hostname))return;var g=document.createElement('script');g.async=true;g.setAttribute('data-goatcounter','https://illegalchess.goatcounter.com/count');g.src='https://gc.zgo.at/count.js';document.body.appendChild(g);}catch(e){}})();
 </script>
 </body>
 </html>
